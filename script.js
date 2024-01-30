@@ -1,6 +1,6 @@
-const numA
-const numB
-const opp
+// const numA
+// const numB
+// const opp
 
 
 
