@@ -15,12 +15,15 @@ body {
 }
 
 #display {
+    display: flex;
     border: 2px black solid;
     /* margin-bottom: 20px; */
     min-height: 50px;
     width:300px;
     align-self: center;
     background-color: bisque;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 #container {
@@ -31,7 +34,7 @@ body {
 
 #pad {
     box-sizing: border-box;
-    border: 2px black solid;
+    /* border: 2px black solid; */
     padding: 5px;
     /* width: 300px;
     height: 250px; */
@@ -51,31 +54,31 @@ button {
 }
 
 .firstRow {
-    border: 5px blue solid; 
+    /* border: 5px blue solid;  */
     display: flex;
     justify-content: space-between;
 }
 
 .secondRow {
-    border: 5px red solid;
+    /* border: 5px red solid; */
     display: flex;
     justify-content: space-between;
 }
 
 .thirdRow {
-    border: 5px purple solid;
+    /* border: 5px purple solid; */
     display: flex;
     justify-content: space-between;
 }
 
 .fourthRow {
-    border: 5px green solid;
+    /* border: 5px green solid; */
     display: flex;
     justify-content: space-between;
 }
 
 .fifthRow {
-    border: 5px purple solid;
+    /* border: 5px purple solid; */
     display: flex;
     flex: 1;
     justify-content:end;
